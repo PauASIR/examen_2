@@ -82,8 +82,13 @@ div.formulario
     background-color: salmon;
     width: 20%;
 }
-div.texto_valencia
+div.div_texto_valencia
 {
     display: inline;
+    width: 80%;
+}
+p.texto_valencia
+{
+    background-color: blue;
     color: white;
 }
