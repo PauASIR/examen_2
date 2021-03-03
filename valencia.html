@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 evaluacion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <script>
+    var output = document.getElementById("ciudad");
+    function funcion()
+        {
+            alert ("Has elegido la ciudad de ");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <hr>
+        <a href="index.html"><h1>Comunidad Valenciana</h1></a>
+        <hr>
+    </header>
+    <main>
+        <section class="fondo_blanco">
+            <div class="letra_azul">
+                <p>Introduce la ciudad mas bonita de la Comunidad Valenciana</p>
+                <form action="resultados.php" method="GET">
+                    <p>Ciudad <input type="text" name="ciudad" id="ciudad" onblur="funcion ()"></p>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class="formulario">
+                <form action="resultados.php" method="GET">
+                    <p>Nombre:</p>
+                    <p><input type="text" name="nombre" id="nombre"></p>
+                    <p>Año de nacimiento: <input type="date" name="año" id="año"></p>
+                    <p>
+                        Sexo:
+                        <input type="radio" name="sexo" id="sexo">Hombre
+                        <input type="radio" name="sexo" id="sexo">Mujer
+                        <input type="radio" name="sexo" id="sexo">Otrxs
+                    </p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </form>
+
+            </div>
+            <div class="texto_valencia">
+                <p>
+                    La Comunidad Valenciana (en valenciano y oficialmente, Comunitat Valenciana) es una comunidad autónoma española situada
+                    en el este de la Peninsula ibérica. Se construyó formalmente en el año 1982, al aprobarse su Estatuto de Autonomía, y desde
+                    el año 2006 es considerada nacionalidad histórica, al amparo de lo dispuesto en el artículo segundo de la Constitución. 
+                </p>
+            </div>
+        </section>
+        <footer>
+            <p>Web desarrollada por <span class="nombre">Pau Gimenez Garcia</span></p>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,89 @@
+h1
+{
+    color: orange;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    text-decoration-color: blue;
+}
+body
+{
+    background-color: aqua;
+}
+img
+{
+    width: 200px;
+    height: 100px;
+}
+div.alicante
+{
+    background-color: brown;
+}
+p.p_alicante
+{
+    margin-left: 25%;
+}
+img.img_alicante
+{
+    display: block;
+    position: relative;
+    padding-bottom: 3px;
+}
+div.valencia
+{
+    background-color: goldenrod;
+}
+p.p_valencia
+{
+    text-align: center;
+}
+img.img_valencia
+{
+    display: block;
+    position: relative;
+    padding-bottom: 3px;
+    margin: auto;
+}
+div.castellon
+{
+    background-color: pink;
+}
+p.p_castellon
+{
+    text-align: right;
+    margin-right: 20%;
+}
+img.img_castellon
+{ 
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+footer
+{
+    background-color: white;
+    text-align: center;
+    color: blue;
+}
+span.nombre
+{
+    color: red;
+}
+section.fondo_blanco
+{
+    background-color: white;
+}
+div.letra_azul
+{
+    color: blue;
+}
+div.formulario
+{
+    background-color: salmon;
+    width: 20%;
+}
+div.texto_valencia
+{
+    display: inline;
+    color: white;
+}
